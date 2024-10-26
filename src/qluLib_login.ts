@@ -2,11 +2,11 @@
 import { QluLibUrl } from "./Url/QluLibUrl";
 import { SsoUserProfile } from "./SSO/SsoUserProfile";
 import fs from "fs";
-import { UserProfiles1 } from "./UserProfiles1";
+import { UserProfiles } from "./UserProfiles";
 
 const sso = new Sso();
 const url = new QluLibUrl();
-const userProfiles = new UserProfiles1();
+const userProfiles = new UserProfiles();
 
 let users: SsoUserProfile[] = userProfiles.users;
 
